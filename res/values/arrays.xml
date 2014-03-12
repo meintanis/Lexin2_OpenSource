@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="languageNamesOL">
+    <item name="swe_alb">albanska</item>        
+    <item name="swe_ara">arabiska</item>
+    <item name="swe_azj">azerbajdzjanska</item>
+    <item name="swe_bos">bosniska</item>
+    <item name="swe_eng_off">engelska (offline)</item>
+    <item name="swe_eng">engelska</item>
+    <item name="swe_gre">grekiska</item>
+    <item name="swe_fin">finska</item>
+    <item name="swe_hrv">kroatiska</item>
+    <item name="swe_kmr">nordkurdiska</item>
+    <item name="swe_per">persiska</item>
+    <item name="swe_rus">ryska</item>
+    <item name="swe_srp">serbiska (lat)</item>
+    <item name="swe_srp_cyrillic">serbiska (kyr)</item>
+    <item name="swe_som">somaliska</item>
+    <item name="swe_spa">spanska</item>
+    <item name="swe_swe">svenska</item>
+    <item name="swe_sdh">sydkurdiska</item>
+    <item name="swe_tur">turkiska</item>
+  </string-array>
+     
+  <string-array name="languageValuesOL">
+    <item name="swe_alb">swe_alb</item>        
+    <item name="swe_ara">swe_ara</item>
+    <item name="swe_azj">swe_azj</item>
+    <item name="swe_bos">swe_bos</item>
+    <item name="swe_eng_off">swe_eng_off</item>
+    <item name="swe_eng">swe_eng</item>
+    <item name="swe_gre">swe_gre</item>
+    <item name="swe_fin">swe_fin</item>
+    <item name="swe_hrv">swe_hrv</item>
+    <item name="swe_kmr">swe_kmr</item>
+    <item name="swe_per">swe_per</item>
+    <item name="swe_rus">swe_rus</item>
+    <item name="swe_srp">swe_srp</item>
+    <item name="swe_srp_cyrillic">swe_srp_cyrillic</item>
+    <item name="swe_som">swe_som</item>
+    <item name="swe_spa">swe_spa</item>
+    <item name="swe_swe">swe_swe</item>
+    <item name="swe_sdh">swe_sdh</item>
+    <item name="swe_tur">swe_tur</item>
+  </string-array>
+
+  <string-array name="languageNames">
+    <item name="swe_alb">albanska</item>        
+    <item name="swe_ara">arabiska</item>
+    <item name="swe_azj">azerbajdzjanska</item>
+    <item name="swe_bos">bosniska</item>
+    <item name="swe_eng">engelska</item>
+    <item name="swe_gre">grekiska</item>
+    <item name="swe_fin">finska</item>
+    <item name="swe_hrv">kroatiska</item>
+    <item name="swe_kmr">nordkurdiska</item>
+    <item name="swe_per">persiska</item>
+    <item name="swe_rus">ryska</item>
+    <item name="swe_srp">serbiska (lat)</item>
+    <item name="swe_srp_cyrillic">serbiska (kyr)</item>
+    <item name="swe_som">somaliska</item>
+    <item name="swe_spa">spanska</item>
+    <item name="swe_swe">svenska</item>
+    <item name="swe_sdh">sydkurdiska</item>
+    <item name="swe_tur">turkiska</item>
+  </string-array>
+     
+  <string-array name="languageValues">
+    <item name="swe_alb">swe_alb</item>        
+    <item name="swe_ara">swe_ara</item>
+    <item name="swe_azj">swe_azj</item>
+    <item name="swe_bos">swe_bos</item>
+    <item name="swe_eng">swe_eng</item>
+    <item name="swe_gre">swe_gre</item>
+    <item name="swe_fin">swe_fin</item>
+    <item name="swe_hrv">swe_hrv</item>
+    <item name="swe_kmr">swe_kmr</item>
+    <item name="swe_per">swe_per</item>
+    <item name="swe_rus">swe_rus</item>
+    <item name="swe_srp">swe_srp</item>
+    <item name="swe_srp_cyrillic">swe_srp_cyrillic</item>
+    <item name="swe_som">swe_som</item>
+    <item name="swe_spa">swe_spa</item>
+    <item name="swe_swe">swe_swe</item>
+    <item name="swe_sdh">swe_sdh</item>
+    <item name="swe_tur">swe_tur</item>
+  </string-array>
+  
+  <string-array name="savedwords">
+    <item name="value0">Visa bara svenskt ord</item>        
+    <item name="value1">Visa bara översättning</item>
+    <item name="value2">Visa båda</item>
+  </string-array>
+  
+  <string-array name="savedwordsvalues">
+    <item name="value0">value0</item>        
+    <item name="value1">value1</item>
+    <item name="value2">value2</item>
+  </string-array>  
+  
+</resources>

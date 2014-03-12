@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Slå upp!</string>
+    <string name="app_name">Lexin 2</string>
+    <string name="return_button_string">Tillbaka</string>
+    <string name="hint_translate">Skriv ett ord!</string>
+    <string name="clear_x">X</string>
+    <string name="image_desc">Lyssna</string>
+    
+    <string name="viewSavedOption">Visa sparade orden</string>
+    <string name="settingsOption">Setup</string>
+    <string name="aboutOption">Info</string>
+    <string name="exitOption">Exit</string>
+ 
+    <string name="swe_alb">albanska</string>
+    <string name="swe_ara">arabiska</string>
+    <string name="swe_azj">azerbajdzjanska</string>
+    <string name="swe_bos">bosniska</string>
+    <string name="swe_eng">engelska</string>
+    <string name="swe_eng_off">engelska (offline)</string>
+    <string name="swe_gre">grekiska</string>
+    <string name="swe_fin">finska</string>
+    <string name="swe_hrv">kroatiska</string>
+    <string name="swe_kmr">nordkurdiska</string>
+    <string name="swe_per">persiska</string>
+    <string name="swe_rus">ryska</string>
+    <string name="swe_srp">serbiska (lat)</string>
+    <string name="swe_srp_cyrillic">serbiska (kyr)</string>
+    <string name="swe_som">somaliska</string>
+    <string name="swe_spa">spanska</string>
+    <string name="swe_swe">svenska</string>
+    <string name="swe_sdh">sydkurdiska</string>
+    <string name="swe_tur">turkiska</string>
+     
+</resources>

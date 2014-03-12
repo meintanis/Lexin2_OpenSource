@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="3dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"    
+    android:orientation="horizontal" >
+
+
+    <EditText
+        android:id="@+id/wordfortranslation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:hint="@string/hint_translate"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/Clear"
+        android:layout_width="48dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.10"
+        android:onClick="onButtonClear"
+        android:text="@string/clear_x" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/Translate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="@string/hello" />
+        
+    <ListView
+        android:id="@+id/mainListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+     />
+    
+    
+</LinearLayout>

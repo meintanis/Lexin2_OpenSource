@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Språk Setup"
+        android:key="language">
+
+        <PreferenceScreen
+            android:key="language_translation"
+            android:title="Välj språk"
+            android:summary="Välj språk för översättning"
+            android:persistent="true"
+        />
+                
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Inställningar"
+        android:key="parameters">
+
+        <ListPreference
+            android:key="saved_words_setup"
+            android:title="Sparade ord"
+            android:summary="Välj hur sparade ord visas"
+            android:defaultValue="value2"
+            android:entries="@array/savedwords"
+            android:entryValues="@array/savedwordsvalues"
+        />   
+                
+        <PreferenceScreen android:title="Radera Sparade orden"
+            android:summary="Välj för att radera alla sparade orden"
+            android:persistent="true"
+            android:key="dialog_preference"
+        />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Offline Databas"
+        android:key="offline_parameters">
+        
+         <CheckBoxPreference
+          	android:title="Wildcard sökning"
+          	android:defaultValue="false"
+          	android:summary="Använd wildcards. T.ex: *word, *word*"
+          	android:key="search_like" />
+
+         <CheckBoxPreference
+          	android:title="Offline Mode"
+          	android:defaultValue="false"
+          	android:summary="Använd Offline DB om det finns ingen nätverk"
+          	android:key="noconnection_db" />
+        
+    </PreferenceCategory>    
+
+    <PreferenceCategory
+        android:title="Databas Setup"
+        android:key="offline_db">
+        
+        <PreferenceScreen android:title="Installera Offline DB"
+            android:summary="Ladda ner och installera den svenska till engelska Lexin Databasen"
+            android:persistent="true"
+            android:key="download_db"
+        />
+
+        <PreferenceScreen android:title="Uninstallera Offline DB"
+            android:summary="Radera den svenska till engelska Lexin Databasen"
+            android:persistent="true"
+            android:key="delete_db"
+        />
+        
+    </PreferenceCategory>    
+
+</PreferenceScreen>
+
+
+<!--    <ListPreference
+            android:key="language_translation"
+            android:title="Välj språk"
+            android:summary="Välj språk för översättning"
+            android:defaultValue="swe_alb"
+            android:entries="@array/languageNames"
+            android:entryValues="@array/languageValues"
+        />   -->

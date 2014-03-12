@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   <item android:id="@+id/menuview" 
+         android:icon="@drawable/saved_search"
+         android:title="Sparade ord">       
+   </item>   
+   
+   <item android:id="@+id/menusettings" 
+         android:icon="@drawable/setup_icon"
+         android:title="Inställningar">       
+   </item> 
+           
+   <item android:id="@+id/menuabout" 
+         android:icon="@drawable/about"
+         android:title="@string/aboutOption">       
+   </item>
+   
+   <item android:id="@+id/menuexit" 
+         android:icon="@drawable/exit"
+         android:title="@string/exitOption">       
+   </item>
+    
+</menu>
