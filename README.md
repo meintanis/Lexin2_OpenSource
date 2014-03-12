@@ -1,0 +1,1 @@
+Open Source code for Lexin2 Android Application
