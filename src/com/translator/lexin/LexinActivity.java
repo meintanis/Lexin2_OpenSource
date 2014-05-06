@@ -41,6 +41,7 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.media.AudioManager;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.Environment;
@@ -95,7 +96,7 @@ public class LexinActivity extends Activity implements Runnable{
    
    static final boolean ENABLE_LICENSE = false;
    static final boolean SYSTEM_DEBUG = false;
-   static final String APPLICATION_VERSION = "v1.35";
+   static final String APPLICATION_VERSION = "v1.36";
    //
    static final String KEY_WORD = "Word";
    static final String KEY_TRANSLATE = "Translation";
@@ -143,6 +144,9 @@ public class LexinActivity extends Activity implements Runnable{
 	   //
        super.onCreate(savedInstanceState);
        setContentView(R.layout.main);
+       // 
+       // Sound Control
+       setVolumeControlStream(AudioManager.STREAM_MUSIC);
        //
        // Get saved data
        //
@@ -678,11 +682,15 @@ public class LexinActivity extends Activity implements Runnable{
       
    private String Translate_XML_Data(String str){
 	   //
- 	   XMLParser parser = new XMLParser();
- 	   Document doc = parser.getDomElement(str);
- 	   NodeList nl = doc.getElementsByTagName("word");
+	   XMLParser parser = new XMLParser();
+	   Document doc;
+	   NodeList nl;
  	   String NewReplyStr = "";
  	   String word_in = "";
+	   //
+	   try {
+ 	         doc = parser.getDomElement(str);
+ 	         nl = doc.getElementsByTagName("word");
  	   //
  	   if( nl != null) for(int current=0; current<nl.getLength(); current++){
  		   //
@@ -879,6 +887,9 @@ public class LexinActivity extends Activity implements Runnable{
  		  }  
  	 	  //		   
  	   }
+	   } catch (Exception e) {
+		  //
+       }   	         
  	   //
  	   // Add the XML values
  	   //
