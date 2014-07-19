@@ -96,7 +96,7 @@ public class LexinActivity extends Activity implements Runnable{
    
    static final boolean ENABLE_LICENSE = false;
    static final boolean SYSTEM_DEBUG = false;
-   static final String APPLICATION_VERSION = "v1.36";
+   static final String APPLICATION_VERSION = "v1.37";
    //
    static final String KEY_WORD = "Word";
    static final String KEY_TRANSLATE = "Translation";
@@ -1110,6 +1110,22 @@ public class LexinActivity extends Activity implements Runnable{
        return true;
    }
 
+   /*********************************************************************************
+    * 
+    * Function Name:
+    * Description  :
+    * 
+    * 
+    *********************************************************************************/
+   
+   public void onButtonMenu(View v) {
+	 //
+
+	 LexinActivity.this.openOptionsMenu();
+ 	 //
+     return;
+   }     
+   
    /*********************************************************************************
     * 
     * Function Name:

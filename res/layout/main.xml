@@ -1,36 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+  
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:paddingTop="3dp"
     android:paddingLeft="2dp"
-    android:paddingRight="2dp"    
+    android:paddingRight="2dp"  
     android:orientation="horizontal" >
 
+    <ImageButton
+        android:contentDescription="@null"
+        android:id="@+id/OptionsMenu"
+         android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:onClick="onButtonMenu"
+        android:background="@drawable/menu_icon" />
 
     <EditText
         android:id="@+id/wordfortranslation"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_gravity="center"
+        android:layout_height="40dp"
         android:layout_weight="1"
         android:hint="@string/hint_translate"
-        android:singleLine="true" />
+        android:singleLine="true" >
 
-    <Button
+    </EditText>
+
+    <ImageButton
+        android:contentDescription="@null"
         android:id="@+id/Clear"
-        android:layout_width="48dip"
-        android:layout_height="fill_parent"
-        android:layout_gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
         android:layout_weight="0.10"
         android:onClick="onButtonClear"
-        android:text="@string/clear_x" />
+        android:background="@drawable/del_icon" />
 
 </LinearLayout>
 
